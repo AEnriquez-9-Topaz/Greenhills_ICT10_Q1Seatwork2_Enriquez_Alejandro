@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seatwork 2: Declaring Variables and Identifying Data Types</head></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.5.2/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.5.2/core.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Delius&family=Ephesis&family=Lexend:wght@100..900&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <py-script src="main.py"></py-script>
+	
+    <div id="div1"> <!--First div for main headings-->
+		<div class="image-container">
+			<img src="Giraffe_logo.png" alt="Description" width="250"  class="cen"> <!--This image is from https://www.vecteezy.com/vector-art/15645078-cute-giraffe-smilling, Cubbone Illustration-->
+		</div>
+        <h1 class="cen header gold" id="Restaurant_name">  </h1> 
+        <h4 id="owner" class="cen charm"></h4>
+		<hr>
+    </div>
+	
+    <div id="div2" class="cen"> <!--Second div for Menu table with most of the Python-->
+		<br>
+        <h1 class="blue">   Menu Pricelist </h1>
+        <table class="cen">
+		    <thead>
+				 <tr>
+	    		    <th class="gold ital">Product</th>
+				    <th class="gold ital">Price (P)</th>
+				    <th class="gold ital">With Tax (P)</th>
+		    	  </tr>
+			</thead>
+
+			<tbody>
+                <tr>
+					<td id="Bean_Sprout"><b></b></td>
+					<td id="Bean_Sprouts_Price"></td>
+					<td id="Bean_Sprouts_with_Tax"></td>
+				</tr>
+
+                <tr>
+					<td id="Noodles"><b></b></td>
+					<td id="Noodles_Price"></td>
+					<td id="Noodles_with_Tax"></td>
+				</tr>
+
+			    <tr>
+				    <td id="Mango_Shake"><b></b></td>
+					<td id="Mango_Shake_Price"></td>
+				    <td id="Mango_Shake_with_Tax"></td>
+				</tr>
+
+				<tr>
+					<td id="Fried_Rice"><b></b></td>
+					<td id="Fried_Rice_Price"></td>
+					<td id="Fried_Rice_with_Tax"></td>
+				</tr>	
+                <tr>
+					<td id="Tokwa"><b></b></td>
+					<td id="Tokwa_Price"></td>
+					<td id="Tokwa_with_Tax"></td>
+				</tr>	
+			</tbody>
+		</table>
+		<br><br>
+    </div> 
+    <div id="div3"> <!--Third div as footer-->
+        <p class="cen ital" id="Business_Hours"> </p>
+    </div>
+</body>
+</html>
